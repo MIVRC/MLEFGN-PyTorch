@@ -1,0 +1,5 @@
+## train
+python main.py --template MLEFGN --save MLEFGN_Gray_15 --scale 1 --reset --save_results --patch_size 64 --ext sep_reset
+
+## test
+python main.py --data_test MyImage --scale 1 --model MLEFGN --pre_train ../model/gray_15.pt --test_only --save_results --chop --save "MLEFGN_Gray_15" --testpath ../LR/LRBI --testset Set12
