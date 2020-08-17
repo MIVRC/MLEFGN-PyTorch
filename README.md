@@ -127,6 +127,18 @@ This work was completed in 2018, a long time ago, so there may be omissions in t
 
 ```
 @InProceedings{fang2020soft,
+    title = {Soft-Edge Assisted Network for Single Image Super-Resolutionn},
+    author = {Fang, Faming and Li, Juncheng and Zeng, Tieyong},
+    booktitle = {IEEE Transactions on Image Processing},
+    volume = {29},
+    pages = {4656--4668},
+    year = {2020},
+    publisher = {IEEE}
+}
+```
+
+```
+@InProceedings{fang2020soft,
     title = {Multi-level Edge Features Guided Network for Image Denoising},
     author = {Fang, Faming and Li, Juncheng, Yuan Yiting, Zeng, Tieyong, and Zhang Guxiu},
     booktitle = {IEEE Transactions on Neural Networks and Learning Systems},
@@ -134,5 +146,6 @@ This work was completed in 2018, a long time ago, so there may be omissions in t
 }
 ```
 
+
 This implementation is for non-commercial research use only. 
-If you find this code useful in your research, please cite the above paper.
+If you find this code useful in your research, please cite the above papers.
