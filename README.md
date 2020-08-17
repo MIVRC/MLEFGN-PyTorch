@@ -133,3 +133,6 @@ This work was completed in 2018, a long time ago, so there may be omissions in t
     publisher = {IEEE}
 }
 ```
+
+This implementation is for non-commercial research use only. 
+If you find this code useful in your research, please cite the above paper.
