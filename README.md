@@ -68,7 +68,7 @@ python main.py --template MLEFGN --save MLEFGN_Gray_15 --scale 1 --reset --save_
 
 ##Testing
 
-Using pre-trained model for training, all test datasets must be pretreatment by  Prepare_TestData_HR_LR.m and all pre-trained model should be put into Test/model/ first. Meanwhile, all test image must be put into dataset_name/x1,  like Set12/x1.
+All pre-trained model should be put into Test/model/ first. Meanwhile, all test image must be put into dataset_name/x1,  like Set12/x1.
 
 ```python
 ## test MLEFGN
