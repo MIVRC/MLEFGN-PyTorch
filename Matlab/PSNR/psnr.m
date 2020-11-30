@@ -13,7 +13,8 @@ SSIM_all = zeros(1, length(filepaths_HR));
 for idx_im = 1 : length(filepaths_HR)        
     im_GT = imread(fullfile(folder_HR,filepaths_HR(idx_im).name));    
     im_Denoise = imread(fullfile(folder_Denoise,filepaths_Denoise(idx_im).name));
-    im_Denoise = rgb2gray(im_Denoise);
+    %% if you test grayscale images, please use the following code
+    %% im_Denoise = rgb2gray(im_Denoise);
     [PSNR_all(idx_im), SSIM_all(idx_im)] = Cal_PSNRSSIM(im_GT, im_Denoise, 0, 0);
     
     fprintf('%d %s: PSNR= %f SSIM= %f\n', idx_im, filepaths_Denoise(idx_im).name, PSNR_all(idx_im), SSIM_all(idx_im));  

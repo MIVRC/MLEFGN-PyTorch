@@ -1,17 +1,21 @@
 # MLEFGN-PyTorch
 ### This repository is an official PyTorch implementation of the paper ''Multi-level Edge Features Guided Network for Image Denoising''.  (TNNLS 2020)
 
-This paper has been accepted by IEEE TNNLS. The release version is coming soon.
+The paper can be downloaded from <a href="https://ieeexplore.ieee.org/abstract/document/9178433?casa_token=3O33Hc3HlqcAAAAA:tj0YfftxQeZLl5q1r9rJc6X_2K2qJptc59lClR-x0RJxnSTax_jLV7E5sJt7qTt3Rw5ooTWjQjbhzQ">MLEFGN</a> 
 
-The early version can be downloaded from <a href="https://junchenglee.com/projects/TNNLS2020_MLEFGN">MLEFGN</a> 
-
-Homepage: <a href="https://junchenglee.com/projects/TIP2020_SEANET/">MLEFGN</a> 
+Homepage: <a href="https://junchenglee.com/projects/TNNLS2020_MLEFGN/">MLEFGN</a> 
 
 Image denoising is a challenging inverse problem due to the complex scenes and information loss. Recently, various methods have been considered to solve this problem by building a well-designed convolutional neural network (CNN) or introducing some hand-designed image priors. Different from previous works, we investigate a new framework for image denoising, which integrates edge detection, edge guidance, and image denoising into an end-to-end CNN model. To achieve this goal, we propose a Multi-level Edge Features Guided Network (MLEFGN). Firstly, we build an edge reconstruction network (Edge-Net) to directly predict clear edges from the noisy image. Then, the Edge-Net is embedded as part of the model to provide edge priors and a dual-path network is applied to extract image and edge features, respectively. Finally, we introduce a multilevel edge features guidance mechanism for image denoising. To the best of our knowledge, the Edge-Net is the first CNN model specially designed to reconstruct image edges from the noisy image, which shows good accuracy and robustness on natural images. Extensive experiments clearly illustrate that our MLEFGN achieves favorable performance against other methods and plenty of ablation studies demonstrate the effectiveness of our proposed Edge-Net and MLEFGN.
 
 <img src="images/head.png" width="800px"/> 
 
 </p>
+
+All denoised images can be download from <a href="https://www.jianguoyun.com/p/DVDHxpEQ19ySBxiV884D">Denoised_Images</a> 
+
+All pre-trained model can be downloaded from <a href="https://www.jianguoyun.com/p/DbDXkkcQ19ySBxi49c4D">here</a>.
+
+All original test datasets can be downloaded from <a href="https://www.jianguoyun.com/p/DSnav-wQ19ySBxiu884D">here</a>.
 
 ##Prerequisites
 

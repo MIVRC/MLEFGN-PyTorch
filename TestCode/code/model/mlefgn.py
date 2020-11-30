@@ -152,4 +152,4 @@ class MLEFGN(nn.Module):
         denoised = self.cat_rg_3(cat_3)
         
         denoised = self.tail(denoised)
-        return denoised, edge
+        return denoised
