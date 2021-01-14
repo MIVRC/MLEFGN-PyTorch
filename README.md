@@ -142,7 +142,7 @@ This work was completed in 2018, a long time ago, so there may be omissions in t
 ```
 
 ```
-@InProceedings{fang2020soft,
+@InProceedings{fang2020multilevel,
     title = {Multi-level Edge Features Guided Network for Image Denoising},
     author = {Fang, Faming and Li, Juncheng, Yuan Yiting, Zeng, Tieyong, and Zhang Guxiu},
     booktitle = {IEEE Transactions on Neural Networks and Learning Systems},
