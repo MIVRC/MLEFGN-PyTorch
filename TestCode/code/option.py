@@ -41,6 +41,8 @@ parser.add_argument('--scale', default='4',
                     help='super resolution scale')
 parser.add_argument('--patch_size', type=int, default=192,
                     help='output patch size')
+parser.add_argument('--kernel_size', type=int, default=3,
+                    help='kernel_size')
 parser.add_argument('--rgb_range', type=int, default=255,
                     help='maximum value of RGB')
 parser.add_argument('--n_colors', type=int, default=3,
@@ -64,6 +66,12 @@ parser.add_argument('--n_resblocks', type=int, default=64,
                     help='number of residual blocks')
 parser.add_argument('--n_feats', type=int, default=64,
                     help='number of feature maps')
+parser.add_argument('--rate', type=int, default=64,
+                    help='number of rate')
+parser.add_argument('--block', type=int, default=5,
+                    help='number of blocks')
+parser.add_argument('--n_layer', type=int, default=8,
+                    help='number of layer')
 parser.add_argument('--res_scale', type=float, default=1,
                     help='residual scaling')
 parser.add_argument('--shift_mean', default=True,

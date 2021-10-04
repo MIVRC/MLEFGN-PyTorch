@@ -58,6 +58,8 @@ parser.add_argument('--n_resblocks', type=int, default=16,
                     help='number of residual blocks')
 parser.add_argument('--n_feats', type=int, default=64,
                     help='number of feature maps')
+parser.add_argument('--kernel_size', type=int, default=3,
+                    help='kernel_size')
 parser.add_argument('--res_scale', type=float, default=1,
                     help='residual scaling')
 parser.add_argument('--shift_mean', default=True,
@@ -78,6 +80,12 @@ parser.add_argument('--epochs', type=int, default=1000,
                     help='number of epochs to train')
 parser.add_argument('--batch_size', type=int, default=16,
                     help='input batch size for training')
+parser.add_argument('--rate', type=int, default=64,
+                    help='number of rate')
+parser.add_argument('--block', type=int, default=5,
+                    help='number of blocks')
+parser.add_argument('--n_layer', type=int, default=8,
+                    help='number of layer')
 parser.add_argument('--split_batch', type=int, default=1,
                     help='split the batch into smaller chunks')
 parser.add_argument('--self_ensemble', action='store_true',

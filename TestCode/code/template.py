@@ -30,7 +30,6 @@ def set_template(args):
         args.n_feats = 64
         args.kernel_size = 3
         args.rate = 64
-        args.in_dim = 64
         args.chop = True
 
 
